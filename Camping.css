@@ -1,0 +1,9 @@
+.container {
+	background-color: #FFEE00;
+	float: left;
+}
+
+.nav {
+	background-color: red;
+	float:right;
+}
