@@ -1,0 +1,63 @@
+<a href="https://www.google.ca" title="Awesome Search Engine">Google</a> // if you hover over the link it will show a tooltip that is equal to the title
+
+---->using % for the width or height will tell how much of the page that item should take up.
+
+---->cellpadding tells u the distance the contents should have from the border.
+
+---->cellspacing tells the distance between the cells not the contents.
+
+for CSS --->
+
+---->line-height changes the space in between the lines 
+
+---->background-image:url(Link image) for background images
+
+---->background-repeat:no-repeat make sure there's only one image
+
+---->a:link changes the style of link
+
+---->a:visited changes the style if the link is visited
+
+---->a:hover changes the style if you hover over the link
+
+---->a:active changes the style if you click the link
+
+---->list-style-type changes the style of unordered list
+		---->square 
+		---->circle
+		---->katakana
+		---->none    ---->Make padding to 0 to get rid of the space that is created
+---->list-style-image:url(link image) changes the style of the unordered list to the image
+
+---->Pseudo Elements
+		---->p:first-letter; styles only the first letter in the p selector
+		
+----><style type="text/css"></style> Let's you make style changes in the html file
+		---->This style can override the external css file if it appears after the <link...../>
+	
+for forms ----> <form></form>
+
+----><input type="text" name="username" size="20" maxlength="5" value="Enter Name Here"/>
+			---->Input is text with max number of characters being 5 
+
+----><input type="radio" name="sex" value="male" />
+			---->Creates a radio button that lets you click one of the options
+	
+----><input type="checkbox" name="food" value="bacon" />
+			---->Creates a checkbox that lets you select multiple elements
+		
+----><select name="activities">
+			<option value="play">play the guitar</option>
+	 </select>
+			---->Creates a drop down menu
+			
+----><textarea name="bio" rows="8" cols="40">
+		---->Creates a small area where you can enter text
+		
+---->Password: <input type ="password" name="pword"/>
+		---->Allows password input 
+	
+----><input type="file" name="myFile"/>
+		---->Allows you to browse for a file
+		
+---->
