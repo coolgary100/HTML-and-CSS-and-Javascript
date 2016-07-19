@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script type="text/javascript">
+	function person(name, age) {
+		this.name = name;
+		this.age = age;
+		this.yearsUntilRetire = yearsLeft;
+	}
+	
+	function yearsLeft() {
+		var numYears = 65 - this.age;
+		return numYears;
+	}
+	
+	kelly = {name:"Kelly Fu", age: 19};
+	
+	var bucky = new person("Bucky Roberts", 24);
+	var gary = new person("Gary Jiang", 20);
+</script>
+</head>
+<body>
+
+<script type="text/javascript">
+	 document.write(bucky.name);
+	 document.write(gary.age);
+	 document.write(kelly.name);
+	 document.write(gary.yearsUntilRetire());
+</script>
+
+</body>
+</html>
