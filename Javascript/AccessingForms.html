@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+<body>
+
+<form name="garysForm">
+	Username: <input type="text" name="username" />
+	Password: <input type="password" name="password"/>
+	<input type="submit" value="Submit"/>
+	<input type="checkbox" name="thebox"/>
+	<input type="button" value="Press me!" onClick="validator()"/>
+</form>
+
+<script type="text/javascript">
+	function validator() {
+		if(document.garysForm.thebox.checked) { //checks if you checked the box
+			alert("Yes its checked!");
+		}
+		else {
+			alert("No it's not!");
+		}
+	};
+	var x = document.forms[0].length;
+	document.write(x);
+	var y = document.garysForm.username.name;
+	document.write(y);
+	var z = document.garysForm.password.name;
+	document.write(z);
+	
+</script>
+
+</body>
+</html>
